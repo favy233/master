@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SMFest Hero Section</title>
+<link rel="stylesheet" href="style.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-tershery shadow-sm py-3 " id="nav">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="" alt="" style="width: 200px; background-color: aliceblue;">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- navbar content -->
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" id="nav-link-active" aria-current="page" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" id="nav-link" href="#">Academy</a></li>
+          <li class="nav-item"><a class="nav-link" id="nav-link" href="#">Plus</a></li>
+          <li class="nav-item"><a class="nav-link" id="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" id="nav-link" href="#">Sponsor</a></li>
+          <li class="nav-item"><a class="nav-link" id="nav-link" href="#">Volunteer</a></li>
+        </ul>
+ <!-- Right-side icons & button -->
+        <form class="d-flex gap-5 align-items-center fs-5" id="cart" role="search">
+         <div> <span id="span">#0.00</span> <i class="bi bi-cart fs-5"></i></div>
+          <button style="background-color: red; color: aliceblue; width: 8rem;" class="btn btn-outline-" type="submit" id="cart">Dashbord</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+ <!-- Main -->
+ <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <!-- Carousel One -->
+    <div class="carousel-item active relative">
+      <div class="text-bg-dark">
+        <img src="smf22.jpeg" class="card-img" alt="..." style="height: 85vh;">
+        <div class="card-img-overlay d-flex align-items-center text-center">
+          <div class=" mx-auto"><h5 class="card-title fs-2 fw-bold"></h5>
+            <h1 class="card-text">SMFest</h1>
+            <h1 class="card-text">Abuja 2025</h1>
+            <P>OCTOBER,2025/ANTICIPATE</P>
+            <div class="btn-group-carousel mb-4">
+              <a class="btn btn-outline-light d-block mb-2" href="#">Get Tickets</a>
+              <a class="btn btn-outline-rounded" href="#"><span>+</span></a>
+              <button>Sponsor</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Carousel   two -->
+    <div class="carousel-item">
+      <div class=" text-bg-dark">
+        <img src="smf22.jpeg" class="card-img" alt="..." style="height: 85vh;">
+        <div class="card-img-overlay d-flex align-items-center text-center">
+          <div class=" mx-auto"><h5 class="card-title fs-2 fw-bold"></h5>
+            <h1 class="card-text">Host SMfest</h1>
+            <h1 class="card-text">in your city</h1>
+            <p>SMfest is coming to your cities in 2025,</p>
+            <p> Be part of the team now.Apply to volunteer or lead the team.</p>
+            <div class="btn-group-carousel mb-4">
+              <a class="btn btn-outline-light d-block mb-2" href="#">Get Tickets</a>
+              <a class="btn btn-outline-rounded-light" href="#"><i class="bi bi-play-fill"></i></a>
+              <button>Sponsor</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Carousel Three -->
+    <div class="carousel-item">
+      <img src="smf3.jpeg" class="d-block w-100" alt="..." style="height: 85vh;">
+      <div class="card-img-overlay d-flex align-items-center text-center text-white">
+        <div class=" mx-auto"><h5 class="card-title fs-2 fw-bold"></h5>
+          <h1 class="card-text">Watch all SMFest</h1>
+          <h1 class="card-text">Videos</h1>
+          <p>At SMFest Academy,We have all eynote speeches,Masterclasss,</p>
+          <p>FiresideChat,Workshops,and Exclusive interviews.</p>
+          <div class="btn-group-carousel mb-4">
+            <a class="btn btn-outline-light d-block mb-2" id="buy" href="#">Buy Tickets</a>
+            <a class="btn btn-outline-rounded" href="#"><span>+</span></a>
+            <button >Sponsor</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- About Section -->
+<section class="about-section">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-md-6">
+        <div class="about-title">ABOUT SMFEST</div>
+        <div class="about-heading">SMFest?</div>
+        <p class="about-text">
+          It is a platform that teaches its audience how to leverage the power of technology, social media, and innovation to advance their businesses, brands, and causes, by providing ideas, exposure, and insights that help people and businesses understand how to explore all the advantages of digitalization.
+        </p>
+        <p class="about-text">
+          In this 2024 edition, business owners, marketers, and idea boomers will learn how to unlock the full promise of digital opportunity to drive the future of the industry, bring narrative and customer engagement to new realms, and scale business/idea results.
+        </p>
+        <a href="#" class="read-more-btn">READ MORE</a>
+      </div>
+      <div class="col-md-6 text-center position-relative text-center">
+        <div class="image-wrapper">
+          <div class="image-border"></div>
+          <img src="firstimgsmf.jpeg" alt="SMFest Image" class="about-image" style="width: 550px;">
+          <div class="badge-box">
+            <span>4<sup>TH</sup></span><br>Volunteer
+          </div>
+        </div>
+      </div></div>
+  </div>
+</section>
+  
+    <!-- Sponsor Section -->
+    <section class="container my-5" id="Sponsor ">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-6 mb-4 mb-md-0">
+          <!-- <div class="image-wrapper"></div> -->
+          <div class="overlay-border-2"> 
+          <div class="image-bot"></div>
+            <img src="smf16.jpeg" alt="SMFEST Sponsor" class="second" style="width: 30rem; height: 40rem;">
+            <div class="bot">
+              <span>50+<sup>TH</sup></span><br>Global expreiance
+            </div> </div>
+        </div>
+        <div class="col-12 col-md-5 ms-5 mt-2">
+          <h5 class="text-uppercase" style="color: red;">Why Choose Us</h5>
+          <h1>Become a Sponsor</h1>
+          <p>Gain unparalleled exposure to industry leaders. Elevate your brand by sponsoring an event that shapes the future of social media.</p>
+  
+          <div class="row gy-4 mt-3" id="text">
+            <div class="col-6 col-md-6">
+              <h5><i class="bi bi-people"></i> Attendee Activation</h5>
+              <p>Engage over 1,500 attendees with stage presence and activation.</p>
+            </div>
+            <div class="col-6 col-md-6">
+              <h5><i class="bi bi-house-door"></i> Exhibition Stand</h5>
+              <p>A dedicated booth where your brand can shine and interact.</p>
+            </div>
+            <div class="w-100 d-none d-md-block"></div>
+            <div class="col-6 col-md-6">
+              <h5><i class="bi bi-person-hearts"></i> Panel Session Spot</h5>
+              <p>Join discussions with influencers and share your product insight.</p>
+            </div>
+            <div class="col-6 col-md-6">
+              <h5><i class="bi bi-people-fill"></i> Volunteer Activation</h5>
+              <p>Empower over 200 volunteers to help deliver your brand mission.</p>
+            </div>
+          </div>
+  
+          <button class="btn btn-outline-dark mt-4 px-4 py-2" id="button">Sponsor</button>
+        </div>
+      </div>
+    </section>
+  <!-- fouth Section -->
+  <section class="about-section">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <!-- Left side content -->
+        <div class="col-md-6">
+          <div class="about-title">ABOUT SMFEST</div>
+          <div class="about-heading">SMFest?</div>
+          <p class="about-text">
+            It is a platform that teaches its audience how to leverage the power of technology, social media, and innovation to advance their businesses, brands, and causes, by providing ideas, exposure, and insights that help people and businesses understand how to explore all the advantages of digitalization.
+          </p>
+          <p class="about-text">
+            In this 2024 edition, business owners, marketers, and idea boomers will learn how to unlock the full promise of digital opportunity to drive the future of the industry, bring narrative and customer engagement to new realms, and scale business/idea results.
+          </p>
+          <a href="#" class="read-more-btn">READ MORE</a>
+        </div>
+  
+        <!-- Right side image -->
+        <div class="col-md-6 position-relative text-center">
+          <div class="image-wrapper">
+            <div class="image-border"></div>
+            <img src="thirdsfm.jpeg" alt="SMFest Image" class="about-image" style="width: 550px;">
+            <div class="badge-box">
+              <span>4<sup>TH</sup></span><br>Volunteer
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+<!-- card section  -->
+   
+<div class="container py-5">
+  <div class="d-flex justify-content-between align-items-center mb-4">
+    <h2 class="section-title">SMFest Academy</h2>
+    <button class="btn p-0"><i class="bi bi-arrow-right" id="Arrow"></i></button>
+  </div>
+
+  <div class="carousel-wrapper">
+    <div class="carousel-track" id="carouselTrack">
+      <!-- Repeat cards to create infinite loop -->
+      <div class="card carousel-card">
+        <div class="card-icon"><i class="bi bi-bookmark"></i></div>
+        <img src="smf5.jpeg" class="card-img-top" alt="Course 1">
+        <div class="card-body">
+          <p class="fw-semibold mb-1" id="p">Masterclass: How to Sell Anything to Anybody Online – Kenny Nwokoye</p>
+          <hr>
+          <div class="d-flex justify-content-between align-items-center mt-3">
+            <span class="price">₦10,000.00</span>
+            <button class="btn btn-outline-light btn-cart" id="btn-cart"><i class="bi bi-cart-fill"></i><i class="bi bi-cart"></i> Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="card carousel-card">
+        <div class="card-icon"><i class="bi bi-bookmark"></i></div>
+        <img src="smf4.jpeg" class="card-img-top" alt="Course 2">
+        <div class="card-body">
+          <p class="fw-semibold mb-1" id="p">Digital Marketing Bootcamp – Jane Doe</p>
+          <hr>
+          <div class="d-flex justify-content-between align-items-center mt-3">
+            <span class="price">₦8,000.00</span>
+            <button class="btn btn-cart"  id="btn-cart"><i class="bi bi-cart"></i><i class="bi bi-cart-fill"></i>Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="card carousel-card">
+        <div class="card-icon"><i class="bi bi-bookmark"></i></div>
+        <img src="smf6.jpeg" class="card-img-top" alt="Course 3">
+        <div class="card-body">
+          <p class="fw-semibold mb-1" id="p">Intro to UI/UX Design – John Smith</p>
+          <hr>
+          <div class="d-flex justify-content-between align-items-center mt-3">
+            <span class="price">₦12,000.00</span>
+            <button class="btn btn-cart"  id="btn-cart"><i class="bi bi-cart-fill"></i><i class="bi bi-cart"></i> Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="card carousel-card">
+        <div class="card-icon"><i class="bi bi-bookmark"></i></div>
+        <img src="smf9.jpeg" class="card-img-top" alt="Course 3">
+        <div class="card-body">
+          <p class="fw-semibold mb-1" id="p">Intro to UI/UX Design – John Smith</p>
+          <hr>
+          <div class="d-flex justify-content-between align-items-center mt-3">
+            <span class="price">₦12,000.00</span>
+            <button class="btn btn-cart"  id="btn-cart"><i class="bi bi-cart"></i><i class="bi bi-cart-fill"></i> Add to cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card carousel-card">
+        <div class="card-icon"><i class="bi bi-bookmark"></i></div>
+        <img src="smf7.jpeg" class="card-img-top" alt="Course 3">
+        <div class="card-body">
+          <p class="fw-semibold mb-1" id="p">Intro to UI/UX Design – John Smith</p>
+          <hr>
+          <div class="d-flex justify-content-between align-items-center mt-3">
+            <span class="price">₦12,000.00</span>
+            <button class="btn btn-cart"  id="btn-cart"><i class="bi bi-cart"></i><i class="bi bi-cart-fill"></i> Add to cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card carousel-card">
+        <div class="card-icon"><i class="bi bi-bookmark"></i></div>
+        <img src="smf13.jpeg" class="card-img-top" alt="Course 3">
+        <div class="card-body">
+          <p class="fw-semibold mb-1" id="p">Intro to UI/UX Design – John Smith</p>
+          <hr>
+          <div class="d-flex justify-content-between align-items-center mt-3">
+            <span class="price">₦12,000.00</span>
+            <button class="btn btn-cart"  id="btn-cart"><i class="bi bi-cart"></i><i class="bi bi-cart-fill"></i> Add to cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card carousel-card">
+        <div class="card-icon"><i class="bi bi-bookmark"></i></div>
+        <img src="smf14.jpeg" class="card-img-top" alt="Course 3">
+        <div class="card-body">
+          <p class="fw-semibold mb-1" id="p">Intro to UI/UX Design – John Smith</p>
+          <hr>
+          <div class="d-flex justify-content-between align-items-center mt-3">
+            <span class="price">₦12,000.00</span>
+            <button class="btn btn-cart"  id="btn-cart"><i class="bi bi-cart"></i><i class="bi bi-cart-fill"></i> Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="card carousel-card">
+        <div class="card-icon"><i class="bi bi-bookmark"></i></div>
+        <img src="smf15.jpeg" class="card-img-top" alt="Course 3">
+        <div class="card-body">
+          <p class="fw-semibold mb-1" id="p">Intro to UI/UX Design – John Smith</p>
+          <hr>
+          <div class="d-flex justify-content-between align-items-center mt-3">
+            <span class="price">₦12,000.00</span>
+            <button class="btn btn-cart"  id="btn-cart"><i class="bi bi-cart-fill"></i><i class="bi bi-cart"></i> Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="card carousel-card">
+        <div class="card-icon"><i class="bi bi-bookmark"></i></div>
+        <img src="smf3.jpeg" class="card-img-top" alt="Course 3">
+        <div class="card-body">
+          <p class="fw-semibold mb-1" id="p">Intro to UI/UX Design – John Smith</p>
+          <hr>
+          <div class="d-flex justify-content-between align-items-center mt-3">
+            <span class="price">₦12,000.00</span>
+            <button class="btn btn-cart"  id="btn-cart"><i class="bi bi-cart"></i><i class="bi bi-cart-fill"></i> Add to cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-dots" id="carouselDots"></div>
+  </div>
+
+  <div class="text-start mt-4">
+    <button class="btn btn-outline-light bg-transparent">View All</button>
+  </div>
+</div>
+<div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="sfm21.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="smf22.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="smf3.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="smf1.html" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="sm9" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="thumb6.webp" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="thumb7.webp" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="thumb8.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="thumb9.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<div class="carousel-thumbnails mt-5 w-50">
+  <img src="sfm21.jpeg" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active">
+  <img src="smf22.jpeg" data-bs-target="#mainCarousel" data-bs-slide-to="1">
+  <img src="smf3.jpeg" data-bs-target="#mainCarousel" data-bs-slide-to="2">
+  <img src="smf1.html" data-bs-target="#mainCarousel" data-bs-slide-to="3">
+  <img src="smf9.jpeg" data-bs-target="#mainCarousel" data-bs-slide-to="4">
+  <img src="thumb6.webp" data-bs-target="#mainCarousel" data-bs-slide-to="5">
+  <img src="thumb7.webp" data-bs-target="#mainCarousel" data-bs-slide-to="6">
+  <img src="thumb8.jpg" data-bs-target="#mainCarousel" data-bs-slide-to="7">
+  <img src="thumb9.jpg" data-bs-target="#mainCarousel" data-bs-slide-to="8">
+</div>
+</div>
+</section>
+  
+ <div class="container text-center mt-5">
+        <div class="row">
+          <div class="col">
+            <h5>
+                2024 smfest Sponsor
+            </h5>
+            <H1>OUR lEADER Sponsor</H1>
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row row-col-1 row-col-sm-2 row-col-md-4 mt-4">
+          <div class="col">
+            <img src="silicon-removebg-preview.png" width="100px" alt="">
+          </div>
+          <div class="col"> 
+            <img src="mtn-removebg-preview.png" width="100px" alt="">
+          </div>
+          <div class="col">
+            <img src="cloudlogo-removebg-preview.png" width="100px" alt="">
+          </div>
+          <div class="col">
+            <img src="businesslogo-removebg-preview.png" width="100px" alt="">
+          </div>
+          <div class="col">
+            <img src="shomaxlogo-removebg-preview.png" width="100px" alt="">
+          </div>
+          <div class="col">
+            <img src="" alt="">
+          </div>
+        </div>
+      </div>
+     </main>
+     <hr class="border-light my-4">
+Footer Section
+<footer class="footer mt-5">
+  <div class="container bg-transparent">
+    <div class="row text-center text-md-start">
+      
+      <!-- First Column -->
+      <div class="col-md-4 mb-4">
+        <h4 class="mb-3">SMFEST</h4>
+        <p>SMFest is a global, annual conference that brings the best and brightest minds in the world together.</p>
+        <div class="social-icons d-flex justify-content-center justify-content-md-start gap-3 mt-3">
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-twitter"></i></a>
+          <a href="#"><i class="bi bi-tiktok"></i></a>
+          <a href="#"><i class="bi bi-youtube"></i></a>
+          <a href="#"><i class="bi bi-linkedin"></i></a>
+          <a href="#"><i class="bi bi-envelope"></i></a>
+        </div>
+      </div>
+
+      <!-- Second Column -->
+      <div class="col-md-4 mb-4">
+        <h5 class="mb-3">Other Pages</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white text-decoration-none" id="list">About Us</a></li>
+          <li><a href="#" class="text-white text-decoration-none" id="list">Blog</a></li>
+          <li><a href="#" class="text-white text-decoration-none" id="list">Ticket</a></li>
+          <li><a href="#" class="text-white text-decoration-none" id="list">Speakers</a></li>
+          <li><a href="#" class="text-white text-decoration-none" id="list">Sponsor</a></li>
+          <li><a href="#" class="text-white text-decoration-none" id="list">Gallery</a></li>
+          <li><a href="#" class="text-white text-decoration-none" id="list">Shop</a></li>
+          <li><a href="#" class="text-white text-decoration-none" id="list">Contact</a></li>
+          <li><a href="#" class="text-white text-decoration-none" id="list">Volunteer</a></li>
+          <li><a href="#" class="text-white text-decoration-none" id="list">Founders' Mixer</a></li>
+          <li><a href="#" class="text-white text-decoration-none" id="list">Academy</a></li>
+        </ul>
+      </div>
+
+      <!-- Third Column -->
+      <div class="col-md-4 mb-4">
+        <h5 class="mb-3">Newsletter</h5>
+        <p>Don't miss a thing! Sign up to receive updates on our events.</p>
+        <form>
+          <div class="mb-3">
+            <input type="email" class="form-control" placeholder="Enter Email Address">
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="First Name">
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Last Name">
+          </div>
+          <button type="submit" class="btn btn-primary w-100" style="background: linear-gradient(to right, #ff4d97, #ff7eb3); border: none;">Subscribe</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+<!-- Back to Top Button -->
+<!-- Back to Top Button -->
+<a href="#top" class="btn btn-primary btn-lg rounded-circle back-to-top">
+  <i class="bi bi-arrow-up"></i>
+</a>
+
+</button>
+
+<!-- Footer Section using Bootstrap -->
+<hr class="border-light my-4">
+<footer class="bg-transparent text-light py-3" style="font-family: Arial, sans-serif;">
+  <div class="container ">
+    <div class="row d-flex justify-content-center">
+      <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+        © 2024 <span class="text-warning">Silicon Africa</span>. All rights reserved.
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Footer Start -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <!-- Left: Logo and description -->
+      <div class="col-md-4 mb-4">
+        <div class="footer-logo mb-3">
+          <img src="your-logo.png" alt="SMFest Logo">
+        </div>
+        <p>SMFest is a global, annual conference that brings the best and brightest minds in the world together.</p>
+        <div class="d-flex gap-3 mt-3 social-icons">
+          <a href="#" class="text-white fs-5"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="text-white fs-5"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-white fs-5"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="text-white fs-5"><i class="fab fa-linkedin"></i></a>
+          <a href="#" class="text-white fs-5"><i class="fab fa-tiktok"></i></a>
+          <a href="#" class="text-white fs-5"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <!-- Middle: Other Pages -->
+      <div class="col-md-4 mb-4 footer-section">
+        <h6>Other Pages</h6>
+        <a href="#" class="footer-link">About Us</a>
+        <a href="#" class="footer-link">Blog</a>
+        <a href="#" class="footer-link">Ticket</a>
+        <a href="#" class="footer-link">Speakers</a>
+        <a href="#" class="footer-link">Sponsor</a>
+        <a href="#" class="footer-link">Gallery</a>
+        <a href="#" class="footer-link">Shop</a>
+        <a href="#" class="footer-link">Contact</a>
+        <a href="#" class="footer-link">Volunteer</a>
+        <a href="#" class="footer-link">Founders' Mixer</a>
+        <a href="#" class="footer-link">Academy</a>
+      </div>
+
+      <!-- Right: Newsletter -->
+      <div class="col-md-4 mb-4 footer-section">
+        <h6>Newsletter</h6>
+        <p>Don't miss a thing! Sign up to receive updates on our Events.</p>
+        <input type="email" placeholder="Enter Email Address" class="footer-input">
+        <input type="text" placeholder="First Name" class="footer-input">
+        <input type="text" placeholder="Last Name" class="footer-input">
+        <button class="subscribe-btn mt-2">SUBSCRIBE</button>
+      </div>
+    </div>
+
+    <!-- Bottom -->
+    <div class="footer-bottom">
+      &copy; 2024 <a href="#">Silicon Africa</a>. All rights reserved.
+    </div>
+  </div>
+</footer>
+<script>
+  const track = document.getElementById('carouselTrack');
+  const dotsContainer = document.getElementById('carouselDots');
+  let cards = document.querySelectorAll('.carousel-card');
+  let index = 0;
+
+  function getVisibleCards() {
+    // if (window.innerWidth >= 992) return 3;
+    if (window.innerWidth >= 768) return 2;
+    return 1;
+  }
+
+  function updateDots(activeIndex) {
+    const dots = dotsContainer.querySelectorAll('.dot');
+    dots.forEach((dot, i) => dot.classList.toggle('active', i === activeIndex));
+  }
+
+  function setupDots(totalSlides) {
+    dotsContainer.innerHTML = '';
+    for (let i = 0; i < totalSlides; i++) {
+      const dot = document.createElement('span');
+      dot.classList.add('dot');
+      if (i === 0) dot.classList.add('active');
+      dotsContainer.appendChild(dot);
+    }
+  }
+
+  function slideCarousel() {
+    const visible = getVisibleCards();
+    const cardWidth = cards[0].getBoundingClientRect().width + 16;
+    index = (index + 1) % (cards.length - visible + 1);
+    track.style.transform = `translateX(-${index * cardWidth}px)`;
+    updateDots(index);
+  }
+
+  function initCarousel() {
+    index = 0;
+    cards = document.querySelectorAll('.carousel-card');
+    setupDots(cards.length - getVisibleCards() + 1);
+    clearInterval(window.carouselInterval);
+    window.carouselInterval = setInterval(slideCarousel, 6000); // slower scroll
+  }
+
+  window.addEventListener('resize', initCarousel);
+  window.addEventListener('load', initCarousel);
+</script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+  
